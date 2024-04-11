@@ -7,13 +7,13 @@ def index(request):
     try:
         number1 = int(request.GET['first_number'])
         number2 = int(request.GET['Second_number'])
-        if request.GET['oprator'] == '+':
+        if request.GET['add'] == '+':
             ans = number1 + number2
-        elif request.GET['oprator'] == '-':
-            ans = number1 - number2
-        elif request.GET['oprator'] == '*':
-            ans = number1 * number2
-        elif request.GET['oprator'] == '/':
+        # elif request.GET['oprator'] == '-':
+        #     ans = number1 - number2
+        # elif request.GET['oprator'] == '*':
+        #     ans = number1 * number2
+        # elif request.GET['oprator'] == '/':
             ans = int(number1 / number2)
         data={
             'ans': ans
