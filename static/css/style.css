@@ -1,0 +1,78 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 17, 51);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    padding-bottom: 30px;
+    background-color: rgb(79, 120, 156);
+}
+.div2-main h1{
+    font-size: 3rem;
+    color: rgb(1, 17, 51);
+    text-decoration: underline;
+}
+.div-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.div-form input{
+    width: 250px;
+    height: 20px;
+    border-radius: 8px;
+    border-color: white;
+}
+#form-oprator-div{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#oprator-btn{
+    width: 60px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    border-color: white;
+}
+#div-form-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 0px;
+    color: rgb(5, 5, 5);
+    background-color: rgb(211, 0, 0);
+    border-color: white;
+    font-weight: bold;
+    font-size: large;
+}
+#div-form-button:hover{
+    background-color: black;
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+.input-ans{
+    width: 250px;
+    height: 20px;
+    border-radius: 8px;
+    border-color: white;
+}
