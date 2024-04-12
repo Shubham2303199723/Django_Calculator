@@ -18,11 +18,12 @@
                 <input type="text" placeholder="Enter Number" name="Second_number"> <br>
                 <label for="">Oprators</label>
                 <div id="form-oprator-div">
-                    <input id="oprator-btn" name="add" type="submit" value="+">
-                    <button id="oprator-btn" name="subtract" >-</button>
-                    <button id="oprator-btn" name="multiply" >*</button>
-                    <button id="oprator-btn" name="divide" >/</button>
+                    <button id="oprator-btn" name="add" value="+" id="add">+</button>
+                    <button id="oprator-btn" name="subtract" value="-" id="subtract">-</button>
+                    <button id="oprator-btn" name="multiply" value="*" id="multiply">*</button>
+                    <button id="oprator-btn" name="divide" value="/" id="divide">/</button>
                 </div>
+                {% comment %} <input type="submit" value="submit"> {% endcomment %}
             </form>
             <div><input class="input-ans" placeholder="Your Answer" value="{{ans}}"></div>
         </div>

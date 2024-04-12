@@ -7,15 +7,14 @@ def index(request):
     try:
         number1 = int(request.GET['first_number'])
         number2 = int(request.GET['Second_number'])
-        if request.GET['add'] == '+':
+        if request.GET.get('add') == '+':
             ans = number1 + number2
-        if request.GET['subtract'] == '-':
+        elif request.GET.get('subtract') == '-':
             ans = number1 - number2
-        if request.GET['multiply'] == '*':
+        elif request.GET.get('multiply') == '*':
             ans = number1 * number2
-        if request.GET['divide'] == '/':
+        elif request.GET.get('divide') == '/':
             ans = int(number1 / number2)
-        print(ans)
         data={
             'ans': ans
         }
