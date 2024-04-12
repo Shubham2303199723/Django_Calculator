@@ -58,16 +58,16 @@
 #div-form-button{
     width: 100px;
     height: 40px;
-    border-radius: 0px;
-    color: rgb(5, 5, 5);
-    background-color: rgb(211, 0, 0);
+    border-radius: 8px;
+    color: rgb(1, 17, 51);
+    background-color: rgb(255, 255, 255);
     border-color: white;
     font-weight: bold;
     font-size: large;
 }
 #div-form-button:hover{
-    background-color: black;
-    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: 0.3s;
 }
 .input-ans{
@@ -75,4 +75,9 @@
     height: 20px;
     border-radius: 8px;
     border-color: white;
+}
+#oprator-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
