@@ -14,7 +14,7 @@ def index(request):
         elif request.GET.get('multiply') == '*':
             ans = number1 * number2
         elif request.GET.get('divide') == '/':
-            ans = int(number1 / number2)
+                ans = int(number1 / number2)
         data={
             'ans': ans
         }

@@ -15,7 +15,7 @@
     justify-content: space-around;
     align-items: center;
     width: 500px;
-    height: 500px;
+    height: 450px;
     padding-bottom: 30px;
     background-color: rgb(79, 120, 156);
 }
@@ -31,6 +31,7 @@
     flex-direction: column;
     font-weight: bold;
     font-size: 1.5rem;
+    height: 300px;
 }
 .div-form input{
     width: 250px;
@@ -72,11 +73,23 @@
 }
 .input-ans{
     width: 250px;
-    height: 20px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: none;
+}
+#oprator-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+#btn-clr{
+    width: 50px;
+    height: 25px;
     border-radius: 8px;
     border-color: white;
 }
-#oprator-btn:hover{
+#btn-clr:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     transition: 0.3s;

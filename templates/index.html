@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
 </head>
 <body>
+    <script>
+        function clearResult() {
+                document.getElementById('result').value = '';
+            }
+    </script>
     <div class="main">
         <div class="div2-main">
             <div><h1>Calculator</h1></div>
@@ -23,9 +28,12 @@
                     <button id="oprator-btn" name="multiply" value="*" id="multiply">*</button>
                     <button id="oprator-btn" name="divide" value="/" id="divide">/</button>
                 </div>
-                {% comment %} <input type="submit" value="submit"> {% endcomment %}
             </form>
-            <div><input class="input-ans" placeholder="Your Answer" value="{{ans}}"></div>
+            <div style="width: 320px; display: flex; justify-content: space-between; padding-top: 10px;">
+                <input class="input-ans" placeholder="Your Answer" value="{{ans}}" id="result" name="result">
+                <button onclick="clearResult()" id="btn-clr">Clear</button>
+            </div>
+            
         </div>
     </div>
 </body>
